@@ -1,0 +1,15 @@
+name: 📚 Documentação
+description: Algo faltando, errado ou desatualizado na documentação
+labels: ["documentation"]
+body:
+  - type: input
+    id: pagina
+    attributes:
+      label: Página ou arquivo
+      placeholder: link ou caminho
+  - type: textarea
+    id: descricao
+    attributes:
+      label: O que precisa mudar?
+    validations:
+      required: true

@@ -1,0 +1,24 @@
+name: 🐞 Bug
+description: Algo não está funcionando como deveria
+labels: ["bug"]
+body:
+  - type: textarea
+    id: descricao
+    attributes:
+      label: O que aconteceu?
+      description: Descreva o problema e o que você esperava que acontecesse.
+    validations:
+      required: true
+  - type: textarea
+    id: passos
+    attributes:
+      label: Como reproduzir
+      placeholder: |
+        1. Acesse ...
+        2. Clique em ...
+        3. Veja o erro
+  - type: textarea
+    id: contexto
+    attributes:
+      label: Contexto
+      description: Navegador, dispositivo, prints, links.

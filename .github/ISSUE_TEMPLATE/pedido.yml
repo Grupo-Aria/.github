@@ -1,0 +1,26 @@
+name: ✨ Pedido / melhoria
+description: Sugira uma funcionalidade ou melhoria
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problema
+    attributes:
+      label: Qual problema isso resolve?
+      description: Quem é afetado e por quê.
+    validations:
+      required: true
+  - type: textarea
+    id: proposta
+    attributes:
+      label: Proposta
+      description: Como você imagina a solução.
+  - type: dropdown
+    id: unidade
+    attributes:
+      label: Unidade
+      multiple: true
+      options:
+        - Instituto Aria
+        - Faculdade
+        - Escola Técnica
+        - Grupo Aria (todas)
